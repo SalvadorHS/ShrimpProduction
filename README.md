@@ -1,9 +1,9 @@
 ## Schrimp Virus Detection Project 🦐
 * This project represents the 1st Phase of an end-to-end ML implementation for clasifying White Spot Disease of farmed shrimp (_Lipoteneaus Vannamei_) in Mexico.   
-* An initial model for the identification of White Spot Disease risk factors is carefully selected based on the work of Hasan, Haque, Hinchliffe & Guilder (2020).
+* An initial model for the identification of risk factors of White Spot Disease is carefully selected based on the work of Hasan, Haque, Hinchliffe & Guilder (2020).
 
 ## Project Description 📑
-The main goal is to understand the ML Models that determine White Spot Disease by conducting Explorative Data Analysis, Feature Engineering and Selection along with a comparison of classification performance of the optimal ML Models.
+The main goal is to build ML Models that determine White Spot Disease by conducting Explorative Data Analysis, Feature Engineering and Selection along with a comparison of classification performance of the optimal ML Models.
 
 - White Spot Syndrome Virus is responsible for high mortality rates and large economic losses across shrimp farming industry in all the world. 
 - In Mexico, the prevalence of the virus is concerning both shrimp farmers and local authorities as the frequency of outbreaks have recently increased.
@@ -23,6 +23,8 @@ A detailed description of the features is found in the Theoretical_Background di
 ## Findings 📈
 - The best optimal ML Model assessed by classification performance (accuracy, precision, recall and f1-score) and execution time is the Naive Bayes Classifier. 
   - After performing hyper-parameter tunning of SVC, XGBoost and Random Forest models, the classification performance equaled the Bayes Classifier, however, execution time remained higher. 
+  - Logistic Regression had the lowest classification performance. 
+- The top ten selected features given by a Random Forest model are applied for building the ML models. 
   
 
 ## Built with 🛠️
