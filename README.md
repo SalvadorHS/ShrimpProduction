@@ -1,5 +1,5 @@
 ## Schrimp Virus Detection Project 🦐
-* This project represents the 1st Phase of an end-to-end ML implementation for clasifying White Spot Disease of farmed shrimp (_Lipoteneaus Vannamei_) in Mexico.   
+* This project represents the 1st Phase of an end-to-end ML implementation for classifying White Spot Disease of farmed shrimp (_Lipoteneaus Vannamei_) in Mexico.   
 * An initial model for the identification of risk factors of White Spot Disease is carefully selected based on the work of Hasan, Haque, Hinchliffe & Guilder (2020).
 
 ## Project Description 📑
